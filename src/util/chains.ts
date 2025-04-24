@@ -81,7 +81,7 @@ export const ID_TO_CHAIN_ID = (id: number): ChainId => {
       return ChainId.BASE;
     case 84531:
       return ChainId.BASE_GOERLI;
-    case 6969696969:
+    case 271:
       return ChainId.MAGMA_TESTNET;
     default:
       throw new Error(`Unknown chain id: ${id}`);
@@ -241,7 +241,7 @@ export const ID_TO_NETWORK_NAME = (id: number): ChainName => {
     case 84531:
       return ChainName.BASE_GOERLI;
 
-    case 6969696969:
+    case 271:
       return ChainName.MAGMA_TESTNET;
     default:
       throw new Error(`Unknown chain id: ${id}`);
